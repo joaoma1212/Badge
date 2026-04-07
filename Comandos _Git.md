@@ -11,7 +11,9 @@ pull request
 ## Comandos Git
 
 git init (Iniciar um repositorio Git na maquina)
+
 git clone (Clonar repositorio)
+
 git branch (Mostrar branches existentes)
 git checkout (Trocar de branch)
 git checkout -b (Criar uma nova branch)
