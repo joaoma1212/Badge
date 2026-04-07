@@ -1,38 +1,43 @@
 # Comandos Git
-Aprendendo sobre Pull Request (PR)
 
-## Conteúdo da aula
-- Git Branch  
-- Git Commands  
-- Pull Request  
+Aprendendo Sobre PR
 
----
-
-## Fluxo básico com Git (em ordem)
-
-### 1. Iniciar ou obter um repositório
-
-```bash
-git init
-
-```Inicia um repositório Git na sua máquina
-
-git clone <url>
-
-2. Criar e acessar uma branch
+## Conteudo da aula
 
 git branch
+git commands
+pull request
 
-Lista as branches existentes
+## Comandos Git
 
-git checkout -b <nome-da-branch>
+git init (Iniciar um repositorio Git na maquina)
+git clone (Clonar repositorio)
+git branch (Mostrar branches existentes)
+git checkout (Trocar de branch)
+git checkout -b (Criar uma nova branch)
+git status (Ver status da branch)
+git add . (Adicionar todos os arquivos no stage)
+git add Nome do arquivo (Adicionar um unico arquivo no stage)
+git commit -m "Comentario" (Salvar alteracoes)
+git push origin (Enviar alteracoes para o repositorio remoto)
+git pull (Atualizar repositorio local)
+git fetch (Buscar alteracoes sem aplicar)
+git merge (Juntar branches)
+git log (Ver historico de commits)
+git diff (Ver diferencas entre alteracoes)
+Pull Request (PR)
 
-Cria e troca para uma nova branch
+Pull Request é uma solicitacao para juntar alteracoes de uma branch com outra (geralmente a main)
 
-git checkout <nome-da-branch>
+## Passos para fazer um PR
 
-3. Verificar estado dos arquivos
+Criar uma branch (git checkout -b minha-branch)
+Fazer alteracoes no codigo
+Adicionar arquivos (git add .)
+Fazer commit (git commit -m "Mensagem")
+Enviar para o repositorio (git push origin minha-branch)
+Ir no GitHub e clicar em "Compare & pull request"
+Criar o Pull Request
+Aguardar revisao
 
-git status
-
-4. Adicionar arquivos
+Autor: Quirino
